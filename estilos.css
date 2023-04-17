@@ -36,8 +36,8 @@ html{
 
 .call{
     width: 70%;
-    color: blue;
-    border: 5px;
+    color:black;
+    border: 5px solid violet;
     float: right;
     padding: 20px;
     margin: 30px;
