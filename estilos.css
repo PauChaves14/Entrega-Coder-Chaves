@@ -304,3 +304,74 @@ h2{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.galeriaa{
+    height: auto;
+    width:100% ;
+    background-color: red;
+    border: 5px solid skyblue;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    "img 1 img 2 img3 img 3" 
+    "img1 img 4 img 5 img 6"
+    "img 7 img4 img8 img 8"
+    ;
+    grid-gap: 20px;
+    gap: 50px;
+    padding: 20px;
+}
+
+img{
+    background-image: url(img/anteojos.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid darkorange;
+}
+
+.img1{
+    grid-area: img1;
+    background-image: url(img/Atardecermujer.jpg);
+}
+
+.img2{
+    grid-area: img2;
+    background-image: url(img/Horario.jpg);
+}
+
+.img3{
+    grid-area: img3;
+    background-image: url(img/Guantes.jpg);
+}
+
+.img4{
+    grid-area: img4;
+    background-image: url(img/Medias.jpg);
+}
+
+.img5{
+    grid-area: img5;
+    background-image: url(img/Olas.jpg);
+}
+
+.img6{
+    grid-area: img6;
+    background-image: url(img/Vestimenta.jpg);
+}
+
+.img7{
+    grid-area: img7;
+    background-image: url(img/anteojos.jpg);
+}
+
+.img8{
+    grid-area: img8;
+    background-image: url(img/Logo.jpg);
+}
