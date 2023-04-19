@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
 header{
     background-color: lavender;
     width: 100%;
@@ -34,6 +36,14 @@ html{
     color:white;
 }
 
+main{
+    height: 100vh;
+    width: 100%;
+    background-color:lavender;
+    
+}
+
+
 .call{
     width: 70%;
     color:black;
@@ -55,14 +65,15 @@ main{
 }
 .call{
     width: 70%;
-    color: darkturquoise;
-    border: 5px;
+    color: #fff;
+    border: 5px solid orchid;
     float: right;
     padding-top: 20px;
     margin: 30px;
 }
+
 h1{
-    color: blue;
+    color:black;
 }
 
 .call p{
@@ -71,7 +82,10 @@ h1{
 }
 
 .call a{
-    margin-top: 20px;
+    color:white;
+    text-decoration: none;
+    background-color:salmon;
+    padding: 10px 20px;
 }
 
 footer{
@@ -128,4 +142,165 @@ font-size: 50px;
 margin-bottom: 20px;
 letter-spacing: 20px;
 color: ye;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.team{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: antiquewhite;
+}
+
+.card{
+    height: 450px;
+    width: 30%;
+    background-color: aquamarine;
+    border: 3px solid black;
+}
+
+.card-img{
+    background-image: url(img/Medias.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.card:hover{
+    transform: scale(1.09);
+    transition: all 0.9s;
+}
+
+.team h4{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px 1px #000000;
+}
+
+.team h5{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: coral;
+}
+
+.p{
+    padding: 20px;
+
+}
+
+.card2-img{
+    background-image: url(img/Campera.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.card3-img{
+    background-image: url(img/Vestimenta.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+h2{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.fondo{
+    height: 400px;
+    background-color: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.galeria{
+    width: 100%;
+    min-height: 10vh;
+    background-color: springgreen;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    grid-gap: 20px;
+}
+
+.item{
+    width: 100%;
+    /*height: 200px; */
+    background-color: #000000;
+    border: 5px solid #fff;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+.galeria .item:hover{
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.item1{
+    background-image: url(img/anteojos.jpg);
+}
+
+.item2{
+    background-image: url(img/Escritorios.jpg);
+}
+
+.item3{
+    background-image: url(img/Olas.jpg);
+}
+
+.item4{
+    background-image:url(img/Logo.jpg);
+}
+
+.item5{
+    background-image: url(img/Guantes.jpg);
+}
+
+.item6{
+    background-image: url(img/Atardecermujer.jpg);
+}
+
+.tem7{
+    background-image: url(img/Olas.jpg);
+}
+
+.item8{
+    background-image: url(img/Medias.jpg);
+}
+
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
