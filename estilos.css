@@ -375,3 +375,18 @@ img{
     grid-area: img8;
     background-image: url(img/Logo.jpg);
 }
+
+header{
+    height: 80px;
+}
+
+aside{
+    height: 250px;
+}
+article{
+    height: 200px;
+}
+
+footer{
+    height: 80px;
+}
