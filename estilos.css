@@ -141,7 +141,7 @@ background-color: blueviolet;
 font-size: 50px;
 margin-bottom: 20px;
 letter-spacing: 20px;
-color: ye;
+color: yellow;
 }
 
 *{
@@ -311,7 +311,7 @@ h2{
     box-sizing: border-box;
 }
 
-.galeriaa{
+.galeria{
     height: auto;
     width:100% ;
     background-color: red;
@@ -363,7 +363,7 @@ img{
 
 .img6{
     grid-area: img6;
-    background-image: url(img/Vestimenta.jpg);
+    background-image: url(img/Logo.jpg);
 }
 
 .img7{
@@ -390,3 +390,9 @@ article{
 footer{
     height: 80px;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 100px; /* 2 columnas*/
+    grid-template-rows: 40px 100px; /* 2 filas*/
+} 
