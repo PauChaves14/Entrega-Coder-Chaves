@@ -436,14 +436,6 @@ img{
     background-size: 125%;
 }
 
-
-
-
-
-
-
-
-
 header{
     height: 80px;
 }
@@ -487,3 +479,5 @@ footer{
     75%{background: skyblue; left:0px;top:300px}
     100%{background:blueviolet; left:0px;top:0px}
 }
+/*es lo que intente hacer para la hoja de servicio, y preguntas frecuentes pero no se porque no funcionó*/
+/*Sigo sin tener bootstap porque lo aprendi a ultimo momento y no me daba el tiempo, prometo que para la entrega final va a estar presente*/
