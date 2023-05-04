@@ -1,0 +1,414 @@
+Controlar mi titulo 3 y porque carajos se ve asi de aml, al igual que la parte de grid-template-rows
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+header{
+    background-color: lavender;
+    width: 100%;
+    height: 80px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    float: left;
+}
+
+.barra{
+    float: right;
+}
+
+.barra li{
+    list-style: none;
+    display: inline-block;
+    color: black;
+}
+
+.barra{
+    text-decoration: none;
+    color: black;
+}
+
+.barra a:hover{
+    color:white;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color:lavender;
+    
+}
+
+
+.call{
+    width: 70%;
+    color:black;
+    border: 5px solid violet;
+    float: right;
+    padding: 20px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    height:calc(100vh-80px);
+    width: 100%;
+    background-color: yellow;
+    background-image: url(img/Logo.jpg);
+    background-size: cover;
+    background-position:right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.call{
+    width: 70%;
+    color: #fff;
+    border: 5px solid orchid;
+    float: right;
+    padding-top: 20px;
+    margin: 30px;
+}
+
+h1{
+    color:black;
+}
+
+.call p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.call a{
+    color:white;
+    text-decoration: none;
+    background-color:salmon;
+    padding: 10px 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.subir{
+    position: fixed;
+    right: 40px;
+    background-color:white;
+    padding: 15px;
+    color: yellowgreen;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.subir:hover{
+background-color: blueviolet;
+}
+
+.sec{
+    background-color: lavender;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.cont{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+
+.item{
+    width: 120px;
+    height: 120px;
+    background-color: lavenderblush;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.redes i{
+font-size: 50px;
+margin-bottom: 20px;
+letter-spacing: 20px;
+color: yellow;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.team{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: antiquewhite;
+}
+
+.card{
+    height: 450px;
+    width: 30%;
+    background-color: aquamarine;
+    border: 3px solid black;
+}
+
+.card-img{
+    background-image: url(img/Medias.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.card:hover{
+    transform: scale(1.09);
+    transition: all 0.9s;
+}
+
+.team h4{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px 1px #000000;
+}
+
+.team h5{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: coral;
+}
+
+.p{
+    padding: 20px;
+
+}
+
+.card2-img{
+    background-image: url(img/Campera.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.card3-img{
+    background-image: url(img/Vestimenta.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+h2{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.fondo{
+    height: 400px;
+    background-color: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.galeria{
+    width: 100%;
+    min-height: 10vh;
+    background-color: springgreen;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    grid-gap: 20px;
+}
+
+.item{
+    width: 100%;
+    /*height: 200px; */
+    background-color: #000000;
+    border: 5px solid #fff;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+.galeria .item:hover{
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.item1{
+    background-image: url(img/anteojos.jpg);
+}
+
+.item2{
+    background-image: url(img/Escritorios.jpg);
+}
+
+.item3{
+    background-image: url(img/Olas.jpg);
+}
+
+.item4{
+    background-image:url(img/Logo.jpg);
+}
+
+.item5{
+    background-image: url(img/Guantes.jpg);
+}
+
+.item6{
+    background-image: url(img/Atardecermujer.jpg);
+}
+
+.tem7{
+    background-image: url(img/Olas.jpg);
+}
+
+.item8{
+    background-image: url(img/Medias.jpg);
+}
+
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.galeria{
+    height: auto;
+    width:100% ;
+    background-color: red;
+    border: 5px solid skyblue;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    "img 1 img 2 img3 img 3" 
+    "img1 img 4 img 5 img 6"
+    "img 7 img4 img8 img 8"
+    ;
+    grid-gap: 20px;
+    gap: 50px;
+    padding: 20px;
+}
+
+img{
+    background-image: url(img/anteojos.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid darkorange;
+}
+
+.img1{
+    grid-area: img1;
+    background-image: url(img/Atardecermujer.jpg);
+}
+
+.img2{
+    grid-area: img2;
+    background-image: url(img/Horario.jpg);
+}
+
+.img3{
+    grid-area: img3;
+    background-image: url(img/Guantes.jpg);
+}
+
+.img4{
+    grid-area: img4;
+    background-image: url(img/Medias.jpg);
+}
+
+.img5{
+    grid-area: img5;
+    background-image: url(img/Olas.jpg);
+}
+
+.img6{
+    grid-area: img6;
+    background-image: url(img/Logo.jpg);
+}
+
+.img7{
+    grid-area: img7;
+    background-image: url(img/anteojos.jpg);
+}
+
+.img8{
+    grid-area: img8;
+    background-image: url(img/Logo.jpg);
+}
+
+header{
+    height: 80px;
+}
+
+aside{
+    height: 250px;
+}
+article{
+    height: 200px;
+}
+
+footer{
+    height: 80px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 100px; /* 2 columnas*/
+    grid-template-rows: 40px 100px; /* 2 filas*/
+} 
+.navbar{
+    background-color: aqua;
+}
