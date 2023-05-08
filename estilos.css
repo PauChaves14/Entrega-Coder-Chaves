@@ -43,7 +43,6 @@ main{
     
 }
 
-
 .call{
     width: 70%;
     color:black;
@@ -96,18 +95,35 @@ footer{
     text-transform: capitalize;
 }
 
+.redes i{
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 20px;
+    color: yellow;
+    }
+
+.redes i:hover{
+    color: #333;
+}
 .subir{
     position: fixed;
     right: 40px;
-    background-color:white;
+    bottom: 40px;
+    background-color: violet;
     padding: 15px;
-    color: yellowgreen;
+    color: white;
     font-size: 20px;
     border-radius: 50%;
+    border: 2px solid white;
 }
 
-.subir:hover{
-background-color: blueviolet;
+
+
+
+
+
+.MúsicaTranquila{
+    background-position: 50%;
 }
 
 .sec{
@@ -185,16 +201,9 @@ background-color: blueviolet;
     text-align: center;
     line-height: 150px;
 }
-.redes i{
-font-size: 50px;
-margin-bottom: 20px;
-letter-spacing: 20px;
-color: yellow;
-}
 
 *{
     margin: 0;
-
     padding: 0;
     box-sizing: border-box;
 }
