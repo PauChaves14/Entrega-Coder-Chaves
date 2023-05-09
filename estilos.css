@@ -92,6 +92,7 @@ footer{
     color: white;
     text-align: center;
     font-size: 30px;
+    padding: 20px;
     text-transform: capitalize;
 }
 
@@ -116,11 +117,6 @@ footer{
     border-radius: 50%;
     border: 2px solid white;
 }
-
-
-
-
-
 
 .MúsicaTranquila{
     background-position: 50%;
@@ -286,8 +282,8 @@ h2{
 
 h2{
     text-align: center;
-    background-color: black;
-    color: darkblue;
+    background-color: plum;
+    color: black;
     font-size: 30px;
     padding: 20px;
 }
@@ -448,6 +444,9 @@ img{
 header{
     height: 80px;
 }
+.container{
+    background-position: center;
+}
 
 aside{
     height: 250px;
@@ -466,7 +465,7 @@ footer{
     grid-template-rows: 40px 100px; /* 2 filas*/
 } 
 .navbar{
-    background-color: aqua;
+    background-color: salmon;
 }
 
 #cuadrado{
