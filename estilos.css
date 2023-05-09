@@ -468,6 +468,14 @@ footer{
     background-color: salmon;
 }
 
+.copyright{
+    background: black;
+    color: #fff;
+}
+
+
+
+
 #cuadrado{
     width: 200px;
     height: 200px;
