@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/Madera.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 header{
     background-color: lavender;
     width: 100%;
@@ -106,6 +114,7 @@ footer{
 .redes i:hover{
     color: #333;
 }
+
 .subir{
     position: fixed;
     right: 40px;
@@ -207,20 +216,20 @@ footer{
 .team{
     display: flex;
     justify-content:space-evenly;
-    background-color: antiquewhite;
+    background-color:#cec5fe ;
 }
 
 .card{
     height: 450px;
     width: 30%;
-    background-color:#30D5C8 ;
+    background-color:#FEC5E5;
 
 
     border: 3px solid black;
 }
 
 .card-img{
-    background-image: url(img/Medias.jpg);
+    background-image: url(img/Izquierda\ gym.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;
@@ -275,11 +284,6 @@ h2{
 .fondo{
     height: 400px;
     background-color: #000000;
-}
-
-*{
-    margin: 0;
-    padding: 0;
 }
 
 h2{
@@ -466,14 +470,12 @@ footer{
     grid-template-columns: 300px 100px; /* 2 columnas*/
     grid-template-rows: 40px 100px; /* 2 filas*/
 } 
-.navbar{
-    background-color: salmon;
-}
 
 .copyright{
     background: black;
-    color: #fff;
+    color: white;
 }
+
 #cuadrado{
     width: 200px;
     height: 200px;
@@ -493,3 +495,105 @@ footer{
     75%{background: skyblue; left:0px;top:300px}
     100%{background:blueviolet; left:0px;top:0px}
 }
+
+*/{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+title h1{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.9em;
+    text-transform: uppercase;
+}
+
+.containerr{
+    background-color:#fff;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.containerr > .header,
+.containerr > .content,
+.containerr > .sidebar,
+.containerr > .footer,
+.containerr > div {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.containerr .header
+.containerr .footer {
+    grid-column: 1/6;
+    background: #1e272e;
+    color: #ffffff ;
+}
+
+.containerr > .content{
+    grid-column: span 4;
+}
+
+.containerr > .article {
+    background: #808e9b;
+    padding: 20px;
+    margin-top: 5px;
+    color: #dfe6e9;
+}
+.content .article h1,
+.content .article p{
+    padding: 10px;
+}
+
+.containerr > .sidebar {
+    grid-column: span 2;
+    background: #485460;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerr .sidebar img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.containerr > .related-post{
+    background: #2d3436;
+    color: #ffffff;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.container > .related-post:hover{
+    cursor: pointer;
+    color: #000000;
+    background: #ffffff; 
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
